@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx vue-cli-service *)",
+      "Bash(curl -s http://localhost:8088/api/hello)",
+      "Bash(taskkill //F //IM java.exe)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(curl -s http://localhost:3000/api/hello)",
+      "Bash(taskkill //F //IM node.exe)"
+    ]
+  }
+}
